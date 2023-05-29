@@ -14,7 +14,7 @@ const FormControl = styled.div`
       color: ${props => props => props.invalid ? 'red' : 'black'};
     }
   
-   &input{
+   & input{
     display: block;
     width: 100%;
     border: 1px solid ${props => props.invalid ? 'red' : '#ccc'};
